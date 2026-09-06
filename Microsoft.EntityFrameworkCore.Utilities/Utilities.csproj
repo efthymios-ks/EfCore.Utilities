@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>Microsoft.EntityFrameworkCore.Utilities</RootNamespace>
+		<AssemblyName>Microsoft.EntityFrameworkCore.Utilities</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.EntityFrameworkCore" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="Microsoft.EntityFrameworkCore.Utilities.Tests" />
+	</ItemGroup>
+</Project>
